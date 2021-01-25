@@ -1,4 +1,4 @@
-def func(name, surname, year_of_birth, city, email, telephone):
+def func(surname, name, email, year_of_birth, telephone, city):
     print("Студент " + name, surname + ",", "год рождения:", str(year_of_birth) + ",",
           "город", city + ",", "email: " + email + ",", "телефон: " + telephone)
 
