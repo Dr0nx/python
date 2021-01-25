@@ -2,11 +2,12 @@ def division(a, b):
     return a / b
 
 
-number1 = int(input('Введите число a: '))
-number2 = int(input('Введите число b: '))
-
 try:
+    number1 = int(input('Введите первое число: '))
+    number2 = int(input('Введите второе число: '))
     result = division(number1, number2)
     print(result)
 except ZeroDivisionError:
-    print('Денеие на ноль!')
+    print('Деление на ноль!')
+except ValueError:
+    print("Небходимо число!")
