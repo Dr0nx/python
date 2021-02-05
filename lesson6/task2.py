@@ -19,4 +19,4 @@ class Road:
 
 
 road = Road(20, 5000)
-print(f'Масса асфальта: {road.method_for_calc(25, 5)2f} 1000} тонн')
+print(f'Масса асфальта: {road.method_for_calc(25, 5) / 1000} тонн')
