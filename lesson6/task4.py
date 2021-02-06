@@ -16,7 +16,6 @@ from random import randint
 from random import choice
 
 excess = [60, 40]
-speed1 = 0
 color1 = ['красного', 'серого', 'черного', 'белого']
 name1 = ['Мерседес', 'БМВ', 'Ауди', 'ВАЗ']
 
