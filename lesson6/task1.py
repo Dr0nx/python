@@ -10,8 +10,10 @@ import time
 
 
 class TrafficLight:
-    delay = [7, 2, 10]
-    __color = ['красный', 'желтый', 'зеленый']
+
+    def __init__(self):
+        self.delay = [7, 2, 10]
+        self.__color = ('красный', 'желтый', 'зеленый')
 
     def running(self):
         while True:
@@ -20,5 +22,5 @@ class TrafficLight:
                 time.sleep(self.delay[each])
 
 
-class_instance = TrafficLight()
-class_instance.running()
+traffic_light = TrafficLight()
+traffic_light.running()

@@ -43,5 +43,7 @@ except ValueError:
     print('Небходимо ввести число!')
     exit(1)
 
-instance = Position(name1, surname1, position1)
-print(f'Сотрудник {instance.get_full_name()} получает оклад с учетом премии {instance.get_total_income()} р.')
+bonus = int(bonus)
+position = Position(name1, surname1, position1)
+print(f'Сотрудник {position.get_full_name()} с должностью {position1} '
+      f'получает оклад с учетом премии {position.get_total_income()} р.')
