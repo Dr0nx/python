@@ -18,7 +18,7 @@ class Matrix:
         self.matrix = matrix
 
     def __str__(self):
-        return '\n'.join([' '.join([f'{col}'
+        return '\n'.join(['\t'.join([f'{col}'
                                     for col in row])
                           for row in self.matrix])
 
