@@ -93,3 +93,4 @@ sport = SportCar(randint(0, 120), color1[randint(0, 3)], name1[randint(0, 3)], i
 print(sport)
 police = PoliceCar(randint(0, 120), color1[randint(0, 3)], name1[randint(0, 3)], is_police=False)
 print(police)
+
