@@ -35,10 +35,8 @@ class Matrix:
 
 
 x, y = 3, 4
-m1 = [[randint(1, 99) for col in range(y)] for row in range(x)]
-m2 = [[randint(1, 99) for col1 in range(y)] for row1 in range(x)]
-matrix1 = Matrix(m1)
-matrix2 = Matrix(m2)
+matrix1 = Matrix([[randint(1, 99) for col in range(y)] for row in range(x)])
+matrix2 = Matrix([[randint(1, 99) for col1 in range(y)] for row1 in range(x)])
 print(f'Матрицы сгенерированы размером {x} на {y} и заполнены случайными числами.\n')
 print(f'Матрица 1:\n{matrix1}\n\nМатрица 2:\n{matrix2}\n')
 print(f'Результат суммы чисел matrix1 + matrix2:\n{matrix1 + matrix2}')
