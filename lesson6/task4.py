@@ -91,5 +91,5 @@ work = WorkCar(randint(0, 120), color1[randint(0, 3)], name1[randint(0, 3)], is_
 print(work)
 sport = SportCar(randint(0, 120), color1[randint(0, 3)], name1[randint(0, 3)], is_police=False)
 print(sport)
-police = PoliceCar(randint(0, 120), color1[randint(0, 3)], name1[randint(0, 3)], is_police=False)
+police = PoliceCar(randint(0, 1), color1[randint(0, 3)], name1[randint(0, 3)], is_police=False)
 print(police)
