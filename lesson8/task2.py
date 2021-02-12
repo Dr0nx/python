@@ -21,4 +21,4 @@ except MyZeroDivisionError:
 except ValueError:
     print('Допустимы только целые числа!')
 else:
-    print(f'Целочисленное деление {number1} / {number2}: {(number1 / number2):.2f}')
+    print(f'Деление {number1} / {number2}: {(number1 / number2):.2f}')
