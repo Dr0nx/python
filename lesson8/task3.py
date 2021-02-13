@@ -17,9 +17,6 @@ class OnlyNumbers(Exception):
     def __init__(self, type_of_class):
         self.type_of_class = type_of_class
 
-    def __str__(self):
-        return self.type_of_class
-
     @staticmethod
     def parse():
         if not el.isdigit():
