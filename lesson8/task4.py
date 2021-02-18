@@ -7,7 +7,6 @@
 
 
 class Warehouse:
-
     def __init__(self):
         self._dict = {}
 
@@ -48,9 +47,6 @@ class Printer(OfficeEquipment):
 
 
 class Scaner(OfficeEquipment):
-    def __init__(self, name, price, quantity):
-        super().__init__(name, price, quantity)
-
     def __repr__(self):
         return f'{self.name}, {self.price}, {self.quantity}'
 
